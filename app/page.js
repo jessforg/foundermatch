@@ -189,7 +189,7 @@ export default function FounderMatch() {
     <div style={S.root}>
       <div style={S.noise} />
       <div style={S.authBox}>
-        <div style={S.logo}><span>⚡</span><span style={S.logoText}>FounderMatch</span>
+        <div style={S.logo}><span>⚡</span><span style={S.logoText}>FounderMatch</span></div>
         <p style={S.authSub}>Trouve ton co-fondateur idéal</p>
 
         <div style={S.authTabs}>
