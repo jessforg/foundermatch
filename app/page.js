@@ -189,7 +189,7 @@ export default function FounderMatch() {
     <div style={S.root}>
       <div style={S.noise} />
       <div style={S.authBox}>
-        <div style={S.logo}><span>⚡</span><span style={S.logoText}>FounderMatch</span></div><button style={{background:"transparent",border:"1px solid #ffffff22",color:"#FF6B6B",padding:"5px 12px",borderRadius:20,cursor:"pointer",fontSize:12,fontWeight:600}} onClick={async()=>{await supabase.auth.signOut();setUser(null)}}>Déconnexion</button><div style={{display:"none"}}</div>
+        <div style={S.logo}><span>⚡</span><span style={S.logoText}>FounderMatch</span>
         <p style={S.authSub}>Trouve ton co-fondateur idéal</p>
 
         <div style={S.authTabs}>
